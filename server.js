@@ -25,7 +25,7 @@ MongoClient.connect(CONNECTION_URL, { useNewUrlParser: true }, (error, client) =
   db = database;
 
   // start the express web server listening on 
-  app.listen(process.env.PORT || 3000, () => {
+  app.listen(process.env.PORT || 3000, '0.0.0.0', () => {
     console.log('listening on ' , process.env.PORT || 3000);
   });
 
