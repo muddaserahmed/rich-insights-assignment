@@ -1,0 +1,16 @@
+{
+  "name": "rich-assignment",
+  "version": "1.0.0",
+  "description": "A test app to demontrate basic coding skills in small amount of time",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muddaser Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.5.2"
+  }
+}
